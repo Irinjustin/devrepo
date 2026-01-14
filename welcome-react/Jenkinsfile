@@ -15,21 +15,13 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-<<<<<<< HEAD
-                bat 'npm install'
-=======
                 sh 'npm install'
->>>>>>> e256a24d49e9acc351a98e847a4caf904b13eccb
             }
         }
 
         stage('Build React App') {
             steps {
-<<<<<<< HEAD
-                bat 'npm run build'
-=======
                 sh 'npm run build'
->>>>>>> e256a24d49e9acc351a98e847a4caf904b13eccb
             }
         }
     }
